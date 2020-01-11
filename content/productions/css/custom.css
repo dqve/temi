@@ -1,0 +1,33 @@
+.gradet{
+	background: rgb(255,204,122);
+background: -moz-linear-gradient(-45deg, rgb(255,204,122) 20%, rgb(90,188,188) 72%, rgb(229,25,117) 100%, rgb(90,188,188) 100%);
+background: -webkit-linear-gradient(-45deg, rgb(255,204,122) 20%,rgb(90,188,188) 72%,rgb(229,25,117) 100%,rgb(90,188,188) 100%);
+background: linear-gradient(135deg, rgb(255,204,122) 20%,rgb(90,188,188) 72%,rgb(229,25,117) 100%,rgb(90,188,188) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcc7a', endColorstr='#5abcbc',GradientType=1 );
+	
+}
+
+
+@media only screen and min-width: 768px and max-width: 959px {
+	.hide_portrait .mfn-parallax_2 {
+	visibility: hidden;
+	}
+}
+@media only screen and min-width: 480px and max-width: 767px {
+	.hide_portrait .mfn-parallax_2{
+	visibility: hidden;
+	}
+}
+@media only screen and max-width: 479px {
+	.hide_portrait .mfn-parallax_2{
+	visibility: hidden;
+	}
+}
+
+
+.section .mfn-parallax_2 {
+	position: absolute;
+	left: 0;
+	top: 650px;
+	width: 100%!important
+}
