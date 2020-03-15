@@ -1704,6 +1704,9 @@ input[type="date"]:focus, input[type="email"]:focus, input[type="number"]:focus,
 	.header-semi #Top_bar:not(.is-sticky) {
 		background-color: rgba(10, 10, 10, 0.8);
 	}
+	.disappear {
+		display: none;
+	}
 }
 @media only screen and (max-width: 767px) {
 	#Top_bar {
@@ -1948,7 +1951,7 @@ h6 {
 		line-height: 22px;
 	}
 	h4 {
-		font-size: 15px;
+		font-size: 35px;
 		line-height: 21px;
 	}
 	h5 {
@@ -2148,7 +2151,11 @@ h6 {
 	.section_wrapper, .container, .four.columns .widget-area {
 		max-width: 700px !important;
 	}
+	.disappear {
+	    opacity: 0;
+	}
 }
+
 #Top_bar #logo, .header-fixed #Top_bar #logo, .header-plain #Top_bar #logo, .header-transparent #Top_bar #logo {
 	height: 60px;
 	line-height: 60px;
